@@ -13,6 +13,13 @@
 		141758731C3233F400216328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141758711C3233F400216328 /* Main.storyboard */; };
 		141758751C3233F400216328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141758741C3233F400216328 /* Assets.xcassets */; };
 		141758781C3233F400216328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141758761C3233F400216328 /* LaunchScreen.storyboard */; };
+		141758891C32459900216328 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 141758861C32459900216328 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		1417588A1C32459900216328 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 141758881C32459900216328 /* UIView+SDAutoLayout.m */; };
+		141758AA1C32779100216328 /* JHTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141758A91C32779100216328 /* JHTableViewDelegate.m */; };
+		141758AD1C3277B300216328 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141758AC1C3277B300216328 /* MyCell.m */; };
+		141758EE1C32966600216328 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 141758ED1C32966600216328 /* MyModel.m */; };
+		14F2A8521C33AC7100002E56 /* ModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F2A8501C33AC7100002E56 /* ModelCell.m */; };
+		14F2A8531C33AC7100002E56 /* ModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F2A8511C33AC7100002E56 /* ModelCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		141758741C3233F400216328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141758771C3233F400216328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141758791C3233F400216328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141758851C32459900216328 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		141758861C32459900216328 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		141758871C32459900216328 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		141758881C32459900216328 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		141758A81C32779100216328 /* JHTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableViewDelegate.h; sourceTree = "<group>"; };
+		141758A91C32779100216328 /* JHTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableViewDelegate.m; sourceTree = "<group>"; };
+		141758AB1C3277B300216328 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		141758AC1C3277B300216328 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		141758EC1C32966600216328 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		141758ED1C32966600216328 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		14F2A84F1C33AC7100002E56 /* ModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCell.h; sourceTree = "<group>"; };
+		14F2A8501C33AC7100002E56 /* ModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCell.m; sourceTree = "<group>"; };
+		14F2A8511C33AC7100002E56 /* ModelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModelCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,23 @@
 		141758671C3233F400216328 /* tableViewDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				141758851C32459900216328 /* UITableView+SDAutoTableViewCellHeight.h */,
+				141758861C32459900216328 /* UITableView+SDAutoTableViewCellHeight.m */,
+				141758871C32459900216328 /* UIView+SDAutoLayout.h */,
+				141758881C32459900216328 /* UIView+SDAutoLayout.m */,
 				1417586B1C3233F400216328 /* AppDelegate.h */,
 				1417586C1C3233F400216328 /* AppDelegate.m */,
 				1417586E1C3233F400216328 /* ViewController.h */,
 				1417586F1C3233F400216328 /* ViewController.m */,
+				141758A81C32779100216328 /* JHTableViewDelegate.h */,
+				141758A91C32779100216328 /* JHTableViewDelegate.m */,
+				141758AB1C3277B300216328 /* MyCell.h */,
+				141758AC1C3277B300216328 /* MyCell.m */,
+				141758EC1C32966600216328 /* MyModel.h */,
+				141758ED1C32966600216328 /* MyModel.m */,
+				14F2A84F1C33AC7100002E56 /* ModelCell.h */,
+				14F2A8501C33AC7100002E56 /* ModelCell.m */,
+				14F2A8511C33AC7100002E56 /* ModelCell.xib */,
 				141758711C3233F400216328 /* Main.storyboard */,
 				141758741C3233F400216328 /* Assets.xcassets */,
 				141758761C3233F400216328 /* LaunchScreen.storyboard */,
@@ -139,6 +172,7 @@
 				141758781C3233F400216328 /* LaunchScreen.storyboard in Resources */,
 				141758751C3233F400216328 /* Assets.xcassets in Resources */,
 				141758731C3233F400216328 /* Main.storyboard in Resources */,
+				14F2A8531C33AC7100002E56 /* ModelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1417588A1C32459900216328 /* UIView+SDAutoLayout.m in Sources */,
 				141758701C3233F400216328 /* ViewController.m in Sources */,
+				141758AA1C32779100216328 /* JHTableViewDelegate.m in Sources */,
+				141758EE1C32966600216328 /* MyModel.m in Sources */,
 				1417586D1C3233F400216328 /* AppDelegate.m in Sources */,
+				141758891C32459900216328 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				14F2A8521C33AC7100002E56 /* ModelCell.m in Sources */,
 				1417586A1C3233F400216328 /* main.m in Sources */,
+				141758AD1C3277B300216328 /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +340,7 @@
 				1417587E1C3233F400216328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
